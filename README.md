@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-decionis-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://decionis.com/
+Decionis provides AI‑driven autonomous decision‑making for enterprises, allowing policies to approve or block actions such as payments, trades, price changes, or inspections before they are executed. Their platform offers real‑time policy enforcement, signed decision dossiers, and integrations with major services like AWS, SAP, and Adobe, targeting developers, finance, and operations teams.
+
+**Areas:** AI · Decision-Making · Enterprise · Automation · Finance
+
+## decionis-com on APIs.io
+
+Everything profiled for decionis-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/decionis-com/](https://apis.io/providers/decionis-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Policy Evaluation API](https://apis.io/apis/decionis-com/policy-evaluation-api/) — Decionis Policy Evaluation API
+- [Commerce Gate API](https://apis.io/apis/decionis-com/commerce-gate-api/) — Decionis Commerce Gate API
+- [Decionis Policy Evaluation API .well-known API](https://apis.io/apis/decionis-com/decionis-policy-evaluation-api-well-known-api/) — Decionis evaluates captured execution intent against versioned policies
+- [Decionis Vertex Extension Verify API Openapi API](https://apis.io/apis/decionis-com/decionis-vertex-extension-verify-api-openapi-api/) — OpenAPI contract for importing Decionis as a governed verification tool in Vertex AI Agent Engine or ADK workflows. This route is a thin adapter over…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (12)
+
+The data models the API reads and writes.
+
+- [CommerceMarketplaceHistoryAssessment](https://apis.io/schemas/decionis-com/decionis-com-commerce-marketplace-history-assessment/)
+- [CommerceNativeSnapshotResponse](https://apis.io/schemas/decionis-com/decionis-com-commerce-native-snapshot-response/)
+- [CommercePaymentAuthorizationRequest](https://apis.io/schemas/decionis-com/decionis-com-commerce-payment-authorization-request/)
+- [CommercePreflightReadiness](https://apis.io/schemas/decionis-com/decionis-com-commerce-preflight-readiness/)
+- [PolicyBundle](https://apis.io/schemas/decionis-com/decionis-com-policy-bundle/)
+- [SignedOutcomeDriftReport](https://apis.io/schemas/decionis-com/decionis-com-signed-outcome-drift-report/)
+- [VertexAuthorityDriftEventRequest](https://apis.io/schemas/decionis-com/decionis-com-vertex-authority-drift-event-request/)
+- [VertexAuthorityExecutionTokenVerifyResponse](https://apis.io/schemas/decionis-com/decionis-com-vertex-authority-execution-token-verify-response/)
+- [VertexAuthorityOverrideRequest](https://apis.io/schemas/decionis-com/decionis-com-vertex-authority-override-request/)
+- [VertexBoundExecutionRequest](https://apis.io/schemas/decionis-com/decionis-com-vertex-bound-execution-request/)
+- [VertexVerifyRequest](https://apis.io/schemas/decionis-com/decionis-com-vertex-verify-request/)
+- [VertexVerifyResponse](https://apis.io/schemas/decionis-com/decionis-com-vertex-verify-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Decionis Com Context](https://apis.io/jsonld/decionis-com/decionis-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [decionis-com API Rules](https://apis.io/rules/decionis-com/decionis-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Decionis Com Domain Security](https://apis.io/security/decionis-com/decionis-com-domain-security/)
+- [Decionis Com Trust Center](https://apis.io/security/decionis-com/decionis-com-trust-center/)
+- [Decionis Com Vulnerability Disclosure](https://apis.io/security/decionis-com/decionis-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Decionis Com Plans Pricing](https://apis.io/plans/decionis-com/decionis-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://decionis.com/)
+- [Documentation](https://docs.decionis.com)
+- [Getting started](https://decionis.com/start)
+- [API reference](https://docs.decionis.com/api)
+- [Pricing](https://decionis.com/pricing)
+- [Support](https://decionis.com/contact)
+- [Blog](https://decionis.com/research)
+- [Security](https://decionis.com/marketplace/aws/security)
+- [Compliance](https://decionis.com/trust)
+- [Terms of service](https://decionis.com/terms)
+- [Privacy policy](https://decionis.com/privacy)
+- [GitHub](https://github.com/decionis)
+
+## API Evangelist rating
+
+**Kin Score 62.5** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 79.5 |
+
+**Agent readiness 35.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/decionis-com/](https://apis.io/providers/decionis-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for decionis-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/decionis-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
